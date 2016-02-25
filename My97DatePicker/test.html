@@ -1,0 +1,43 @@
+<html>
+    <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="WdatePicker.js"></script>
+    </head>
+    <body>
+        <input  type="text" name="StartDate" id="StartDate" value="${StartDate}" maxlength="10" onfocus="WdatePicker({dateFmt:'yyyy/MM/dd'})"/>
+        至
+        <input  type="text" name="EndDate" id="EndDate" value="${EndDate}" maxlength="10" onfocus="WdatePicker({dateFmt:'yyyy/MM/dd'})"/>
+        <span class="ml20"><a href="javascript:query()">查询</a></span>
+    </body>
+
+    <script>
+        function query(month){
+            var url = "";
+            var params = "";
+            var sBeginDate = "";
+            var sEndDate = "";
+            if(month==undefined){
+                sBeginDate = document.getElementById("StartDate").value;
+                sEndDate = document.getElementById("EndDate").value;
+                if(sBeginDate>sEndDate) {alert("日期选反了吧");return}
+
+                params += "StartDate=" + sBeginDate +"&EndDate=" + sEndDate ;
+            }
+            else{
+                var today = new Date();
+                var sToday = getFormatedDate(today);
+                if(month==0){
+                    today.setDate(today.getDate()-7);
+                }else{
+                    today.setMonth(today.getMonth()-month);
+                }
+
+                var sDate = getFormatedDate(today);
+                params = "StartDate=" + sDate + "&EndDate=" + sToday ;
+            }
+
+            location = url + "?" + params;
+            alert(location);
+        }
+    </script>
+</html>

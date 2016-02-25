@@ -1,0 +1,43 @@
+ //校验密码强度
+ var MbmoUtil=(function(jquery){
+         var $=jquery;
+         function passwordStrength(password){
+            var score = 0;
+            var d = 0;
+            password = password.replace(/[\S]/g, function(v, i, s){
+            return s.substr(0, i).indexOf(v) >= 0 ? (d++,'') : v;
+         });
+         if (password.length >= 8) score++;
+         if (/\d/.test(password)) score++; //数字
+         if (/[a-z]/.test(password)) score++; //小写
+         if (/[A-Z]/.test(password)) score++; //大写
+         if (/[\W]/.test(password) || /[_]/.test(password)) score++; //特殊字符
+         if (password.length >= 12) score++;
+            return score;
+         }
+         return {
+            pwStrength:function(pwd){//当用户放开键盘或密码输入框失去焦点时，根据不同的级别显示不同的颜色
+                if (pwd==null||pwd==''){
+
+                }else{
+                    S_level=passwordStrength(pwd);
+                    $("#strength li").each(function(){
+                        $(this).removeClass("password_Level_medium");
+                    });
+                    if(S_level<=2){
+                        $("#strength li:lt(1)").addClass("password_Level_medium");
+                    }else if(S_level<=4){
+                        $("#strength li:lt(2)").addClass("password_Level_medium");
+                    }else{
+                        $("#strength li").addClass("password_Level_medium");
+                    }
+                }
+            }
+         };
+ })(window.jQuery);
+$(document).ready(function(){
+    $("#password").blur(function(){
+         var pw=$("#password").val();
+         MbmoUtil.pwStrength(pw);
+    });
+});

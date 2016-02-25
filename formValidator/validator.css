@@ -1,0 +1,108 @@
+.onShow
+{
+    background:url(../images/onShow.png) no-repeat scroll 0px 7px; 
+    padding-left:20px; 
+	font-size: 12px;
+	line-height:28px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.onFocus
+{
+    background:url(../images/onFocus.png) no-repeat scroll 0px 7px; 
+    padding-left:20px; 
+	font-size: 12px;
+	line-height:28px; 
+	vertical-align:middle;
+	display:inline-block;
+}
+.onError
+{
+    background:url(../images/onError.png) no-repeat scroll 0px 7px;
+    padding-left:20px;
+	font-size: 12px;
+	line-height:28px;
+	vertical-align:middle;
+	display:block;
+	height:28px;
+}
+.onCorrect
+{
+    background:url(../images/onCorrect.png) no-repeat scroll 0px 7px;
+    padding-left:20px;
+	font-size: 12px;
+	line-height:28px; 
+	vertical-align:middle;
+	display:inline-block;
+}
+.onLoad
+{
+    background:url(../images/onLoad.png) no-repeat scroll 3px 3px;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.mar_le105px{
+	margin-left:30px;
+	width:285px;
+}
+
+/*---∑÷“≥Strat--*/
+.pagination {
+	padding: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.pagination a, .pagination a:link, .pagination a:visited,.pagination span{
+	display:inline-block;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border: 1px solid #eaeaea;
+	border-radius: 8px;
+	border: 1px solid #eaeaea;
+	padding:0 10px;
+}
+
+.pagination a:hover, .pagination a:active {
+	border: 1px solid #ff6000;
+	color: #ff6000;
+	text-decoration: none;
+}
+
+.pagination span.current {
+}
+
+.pagination span.disabled {
+	padding: 2px 5px;
+	margin: 2px;
+	border: 1px solid #eee;
+	color: #ddd;
+}
+
+.pagination_warp{
+	padding: 15px 0;
+}
+.pagination li{
+	float: left;
+	padding: 0 2px;
+}
+.pagination a:hover{
+	background-color: #eee;
+	color: #333;
+	border: 1px solid #ccc;
+}
+.pagination .current{
+	border: 1px solid #3399fe;
+	background-color: #3399fe;
+	color: #fff;
+}
+.pagination .current:hover{
+	border: 1px solid #3399fe;
+	background-color: #3399fe;
+	color: #fff;
+	cursor: default;
+}
+/*---∑÷“≥End--*/
