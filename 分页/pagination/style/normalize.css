@@ -9,10 +9,9 @@
 html {
   font-family: "Lucida Grande", "Microsoft JhengHei", "Microsoft YaHei"; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */}
   ::selection {color: white;background-color: #eb7350;}
   *{padding:0;margin:0;}
-}
 
 ul,li{list-style: none;padding:0;margin:0;}
 a{text-decoration: none;color:#757575;}
@@ -41,7 +40,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 menu,
 nav,
