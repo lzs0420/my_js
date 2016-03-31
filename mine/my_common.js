@@ -203,3 +203,39 @@ $.fn.numeral = function () {
     });
 };
 
+/**获取浏览器类型和版本*/
+function getBrowserInfo(){
+    var Sys = {};
+    var ua = navigator.userAgent.toLowerCase();
+    var ie =/(edge|msie).*?([\d\.]+)|(rv).*?([\d\.]+)\)\slike/;
+    var m = ua.match(ie);
+    if(m!=null){
+    	if(m[1]==undefined){
+        	Sys.browser = m[3].replace(/rv/, "IE");
+            Sys.ver = m[4];
+    	}else{
+        	Sys.browser = m[1];
+            Sys.ver = m[2];
+    	}
+    }else{
+    	var re =/(firefox|chrome|opera|version).*?([\d\.]+)/;
+        m = ua.match(re);
+        Sys.browser = m[1].replace(/version/, "safari");
+        Sys.ver = m[2];
+    }
+    return Sys;
+}
+
+/**获取浏览器类型和版本*/
+function disableDoubleClick(){
+    var browser = getBrowserInfo().browser;
+    if(browser.indexOf('firefox')==-1){
+        var d = document.createElement('style');
+        d.setAttribute('type', 'text/css');
+        d.innerHTML = 'body { -moz-user-select:none }';
+        document.getElementsByTagName('head')[0].appendChild(d);
+//            document.body.setAttribute('style','-moz-user-select:none');
+    }else{
+        document.body.setAttribute('onselectstart','return false');
+    }
+}
