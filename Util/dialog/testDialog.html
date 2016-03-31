@@ -1,0 +1,81 @@
+<meta charset="utf-8">
+<title>
+    Reveal Demo
+</title>
+<!-- Attach our CSS -->
+<link rel="stylesheet" href="reveal.css">
+<!-- Attach necessary scripts -->
+<!--
+<script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+-->
+<script type="text/javascript" src="../jquery/jquery-1.8.3.js"></script>
+
+<script type="text/javascript" src="jquery.reveal.js"></script>
+
+<style type="text/css">
+    body { font-family: "HelveticaNeue", "Helvetica-Neue", "Helvetica", "Arial", sans-serif; }
+    .big-link { display: block; margin-top: 100px; text-align: center; font-size: 70px; color: #06f; }
+</style>
+<a href="#" class="big-link" data-reveal-id="myModal"> jquery1 </a>
+<a href="#" class="big-link" data-reveal-id="myModal" data-animation="fade"> jquery2 </a>
+<a href="#" class="big-link" data-reveal-id="myModal" data-animation="none"> jquery3 </a>
+
+<!--<div id="myModal" class="reveal-modal">
+
+    <h1>
+        jquery导出层
+    </h1>
+
+    <p>
+        This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.
+    </p>
+    <a class="close-reveal-modal">×</a>
+</div>-->
+
+<div  id="myModal" class="reveal-modal"   style="border:1px solid #FF0000">
+    <a class="close-reveal-modal">×</a>
+    <h2>Add Ship Customer</h2>
+    <table width="800">
+        <tr>
+            <td width="117">NRI CODE <span class="Must">*</span> ：</td>
+            <td align="left">
+
+                <input type="text"  id="ce" name="deptce"/>
+                <span id="CodeCheck"></span>
+            </td>
+        </tr>
+        <tr>
+            <td width="130">Company Name<span class="Must">*</span> ：</td>  <td><input  type="text" class="input" size="35" maxlength="100" id="txtCpname" runat="server" /></td>
+        </tr>
+        <tr>
+            <td>Contact Person<span class="Must">*</span> ：</td>    <td> <input  type="text" class="input" size="35" maxlength="50"  id="txtCPS" runat="server"/></td>
+        </tr>
+        <tr>
+            <td> ontact Phone<span class="Must">*</span>：</td>  <td> <input    type="text" class="input" size="35"  maxlength="50"  id="txtPhone"  runat="server"/></td>
+        </tr>
+        <tr>
+            <td>Fax<span class="Must">*</span>：</td>    <td> <input      type="text" class="input" size="35"  maxlength="50"  id="txtFax" runat="server"/></td>
+        </tr>
+        <tr>
+            <td>Address1<span class="Must">*</span>：</td>   <td><input  type="text" class="input" size="35" id="txtAddress1" maxlength="100" runat="server"/></td>
+        </tr>
+        <tr>
+            <td>Address2：</td>  <td>  <input type="text" class="input" size="35" id="txtAddress2" maxlength="100" runat="server"/></td>
+        </tr>
+        <tr>
+            <td>Address3：</td>  <td><input  type="text" class="input" size="35" id="txtAddress3" maxlength="100" runat="server"/></td>
+        </tr>
+        <tr>
+            <td>Remark：</td>    <td> <textarea   class="input" size="35" maxlength="500" id="txtRemarle" rows="5" cols="32" runat="server" ></textarea></td>
+        </tr>
+
+    </table>
+    <p>
+        <input type="button" value="cancel"  style="margin-left:200px" class="close-btn" id="btncancel" />
+        <input type="button"     value="Add" style="margin-left:10px" id="btnAdd"/>
+
+        <input type="button"   value=" Modify " style="margin-left:10px; margin-top: 0px;" id="btnModify" />
+
+
+
+</div>

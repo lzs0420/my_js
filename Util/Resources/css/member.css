@@ -1,0 +1,593 @@
+.regTitle{
+	padding: 40px 0 20px;
+	border-bottom: 1px solid #efefef;
+}
+.member_btn_warp .member_confirm_btn,.member_btn_warp .member_cancel_btn{
+	width: 200px;
+	height: 40px;
+	line-height:40px;;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	margin: 0 5px;
+	border:none;
+}
+.member_confirm_btn{
+	background-color:#ffc42e ;
+	text-align:center
+}
+.member_cancel_btn{
+	background-color:#a9a9a9 ;
+	text-align:center
+}
+.member_confirm_btn:hover{
+	background-color:#f79322 ;
+}
+.member_cancel_btn:hover{
+	background-color:#999 ;
+}
+/*����������ҳ*/
+.member{
+	margin-bottom: 20px;
+}
+/*memberLeft*/
+.memberLeft{
+	width: 160px;
+	text-align: center;
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+	height: 622px;
+}
+.memberLeft h3{
+	background: #6ebbf1 url(../images/member_icon.png) no-repeat 20px 10px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	text-indent: 15px;
+}
+.memberLeft h4{
+	height: 38px;
+	line-height: 38px;
+	background: #e8eff4 url(../images/member_icon1.png) no-repeat;
+	font-size: 15px;
+	color: #333333;
+	font-weight: normal;
+	border-bottom: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	cursor: pointer;
+}
+.memberLeft .memberIcon1{
+	background-position: 20px 10px;
+}
+.memberLeft .memberIcon2{
+	background-position: 20px -25px;
+}
+.memberLeft .memberIcon3{
+	background-position: 20px -60px;
+}
+.memberLeft .memberIcon4{
+	background-position: 20px -90px;
+}
+.memberLeft ul li{
+	height: 30px;
+	line-height: 30px;
+}
+.memberLeft ul li a{
+	display: block;
+	height: 30px;
+	color: #666666;
+}
+.memberLeft ul li a.current,.memberLeft ul li a:hover{
+	background: #f5f5f5;
+	color: #0074c5;
+}
+/*memberRight*/
+.memberRight{
+	width: 800px;
+	margin-left: 20px;
+}
+.memberBox{
+	background: #FFFFFF;
+	border: 1px solid #e6e6e6;
+	padding: 10px 20px;
+}
+.memberBox h3{
+	color: #666666;
+}
+.memberBox h3 a{
+	font-size: 14px;
+}
+/*����������ҳ*/
+.mybagicon1n a{
+	background: url(../images/my_icon.png) 0px 8px no-repeat;
+	display: block;
+	width: 22px;
+	height: 27px;
+}
+.mybagicon1y a{
+	background: url(../images/my_icon.png) 0px -25px no-repeat;
+	display: block;
+	width: 22px;
+	height: 27px;
+}
+.mybagicon2n a{
+	background: url(../images/my_icon.png)  -25px 8px no-repeat;
+	display:block;
+	width: 22px;
+	height: 27px;
+}
+.mybagicon2y a{
+	background: url(../images/my_icon.png)  -25px -25px no-repeat;
+	display:block;
+	width: 22px;
+	height: 27px;
+}
+.mybagicon3n a{
+	background: url(../images/my_icon.png) -53px 8px no-repeat;
+	display:block;
+	width: 27px;
+	height: 27px;
+}
+.mybagicon3y a{
+	background: url(../images/my_icon.png) -53px -25px no-repeat;
+	display:block;
+	width: 27px;
+	height: 27px;
+}
+.mybagNumbox{
+	min-width: 300px;
+	margin-right: 10px;
+}
+.mybagNumbox span{
+	padding: 0px 3px;
+}
+.mybagNumbox1{
+	min-width: 215px;
+	margin-right: 10px;
+}
+.mybagNumbox1 span{
+	padding: 0px 3px;
+}
+.credit{
+	display:inline-block;
+	width:25px;
+	height: 25px;
+	border-radius: 5px;
+	background: #FF7800;
+	color: #FFFFFF;
+	line-height: 25px;
+	text-align: center;
+}
+.height600{
+	height: 600px;
+}
+.height90{
+	height: 90px;
+}
+.height140{
+	height: 140px;
+}
+.height185{
+	height: 185px;
+}
+.height470{
+	height: 470px;
+}
+/*������ϸ*/
+.searchbox select{
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #d7d7d7;
+	background: #f8f8f8;
+	margin:0px 30px 0px 10px;
+	width:80px;
+}
+.searchbox input{
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #d7d7d7;
+	background: #f8f8f8;
+	width:100px;
+}
+.searchbox a{
+	display: inline-block;
+	background: #0074C5;
+	color: #FFFFFF;
+	width:100px;
+	height: 28px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+.searchbox a:hover{color:#ffffff}
+.tradedetaila{
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+/*�ҵ�Ͷ��*/
+.myinvestChoose span,.myinvestChoose a{
+	float: left;
+	display: inline;
+}
+.myinvestChoose a{
+	display: block;
+	padding: 0px 15px;	
+	margin-right: 10px;
+}
+.myinvestChoose a.current,.myinvestChoose a:hover{
+	background: #0074c5;
+	color: #FFFFFF;
+	border-radius: 14px;	
+}
+/*�ҵ�����*/
+.mybankList ul li{
+	float: left;
+	display: inline;
+	width:150px;
+	text-align: center;
+	margin:20px 20px 0px 0px;
+	position: relative;
+}
+.mybankList ul li a{
+	display: block;
+	height: 45px;
+	width: 150px;
+	border: 1px solid #e6e6e6;
+}
+.mybankList ul li img{
+	height: 45px;
+	width: 142px;	
+}
+.bankdel{
+	background: #333333;
+	opacity: 0.85;
+	filter:alpha(opacity=85);
+	-moz-opacity:0.85; 
+	color: #FFFFFF;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+	display: none;
+}
+
+/*����*/
+.minheight{
+	min-height: 600px;
+}
+.bankList ul li{
+	float: left;
+	display: inline;
+	width:172px;
+	height: 49px;
+	margin:10px 15px 0px 0px;
+	text-align: center;
+}
+.bankList ul li img{
+	height: 45px;
+	width: 142px;	
+}
+.bankList a{
+	display: block;
+	border: 1px solid #e6e6e6;
+	width: 172px;
+	height: 49px;
+	line-height: 45px;
+}
+.bankList a.current,.bankList a:hover{
+  border: 2px solid #ea3a01;
+  background: url(../images/bank_yes.png) no-repeat right bottom;
+}
+.memberBox h4{
+	color: #666666;
+	font-weight: normal;
+}
+.depositinput{
+	width: 760px;
+	margin-top:15px;
+}
+.depositinput .error{
+	max-width:350px;
+}
+.bankList .selectBankMore a{
+	border: none;
+	color: #0074C5;
+	text-decoration: underline;
+	font-size: 14px;
+}
+.bankList .selectBankMore a:hover{
+	border: none;
+	background: none;
+}
+
+/*�ҵ�ת��*/
+.transferBox{
+	line-height: 30px;
+	padding: 0px 20px;
+	background: #fff8e2;
+	border: 1px solid #ffcda0;
+	border-radius: 18px;
+	font-size: 14px;
+	color: #ff8800;
+}
+.transferBox span{
+	color: #c52020;
+	padding: 0px 5px;
+	font-weight: bold;
+}
+
+/*�ҵ���Ϣ*/
+.mynoticeButton{
+	margin:20px auto;
+}
+
+.infroTable td{
+	line-height: 45px;
+	border-bottom: 1px dashed #e1e1e1;
+	text-align: left;
+}
+.infroTable .infrotd1{
+	width: 100px;
+}
+.infroTable .infrotd2{
+	width: 300px;
+}
+.infroTable .infrotd3{
+	width: 180px;
+}
+.infroTable .infrotd_new{
+	width: 100px;
+}
+.infroTable .infrotd4{
+	width: 60px;
+}
+.memberyes{
+	background: url(../images/member_icon2.png) no-repeat left 13px;
+	padding-left:30px;
+}
+.memberno{
+	background: url(../images/member_icon2.png) no-repeat left -35px;
+	padding-left:30px;
+}
+
+/*�ҵ��ڳ�*/
+.crowdSearch  input{
+	width:200px;
+	height: 25px;
+	border: 1px solid #d7d7d7;
+	background: #f8f8f8;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+.crowdSearch  a{
+	display:block;
+	background: #0074c5;
+	border-radius: 5px;
+	color: #FFFFFF;
+	width:80px;
+	text-align: center;
+}
+
+/*�ҵ�����*/
+.inviteButton{
+	width:100px;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+}
+.sharelist li{
+	width: 30px;
+	height: 30px;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+}
+.sharelist li a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(../images/share_icon.jpg) no-repeat;
+}
+.sharelist .share01 a{
+	background-position: 0px 0px;
+}
+.sharelist .share02 a{
+	background-position: -38px 0px;
+}
+.sharelist .share03 a{
+	background-position: -76px 0px;
+}
+.sharelist .share04 a{
+	background-position: -114px 0px;
+}
+.sharelist .share05 a{
+	background-position: -152px 0px;
+}
+
+/*Ͷ������*/
+.memberTable{	
+	width:760px;
+	margin: 10px auto;
+}
+.memberTable td,.memberTable tr{
+	background: #f2f2f2;
+	height: 35px;
+	line-height: 35px;
+}
+.memberTable td{
+	width: 50%;
+	border-left:1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+.memberTable span{
+	margin-left:70px;
+}
+.filelist{
+	margin:10px 0px 0px 30px;
+}
+.filelist a{
+	display: block;
+	background: url(../images/file_icon.jpg) no-repeat 0px 5px;
+	padding-left: 20px;
+}
+
+/*ʵ����֤����*/
+.memberstep01{
+	background: url(../images/step01.jpg) no-repeat;
+	width: 934px;
+	height: 69px;
+	margin: 10px auto;
+}
+.memberstep_a{
+	display:block;
+	height:69px;
+	width:200px;
+}
+.memberstep02{
+	background: url(../images/step02.jpg) no-repeat;
+	width: 934px;
+	height: 69px;
+	margin: 10px auto;
+}
+.memberstep03{
+	background: url(../images/step03.jpg) no-repeat;
+	width: 934px;
+	height: 69px;
+	margin: 10px auto;
+}
+.memberstep04{
+	background: url(../images/step04.jpg) no-repeat;
+	width: 934px;
+	height: 69px;
+	margin: 10px auto;
+}
+
+/*������*/
+.calculatorBorder{
+	border: 1px solid #E6E6E6;
+	background: #FFFFFF;
+	width: 1000px;
+	margin: 10px auto;
+}
+.calculatorBorder h3{
+	font-size: 24px;
+	line-height: 44px;
+	padding-left: 30px;
+}
+.calculatorinput_div{
+	width: 450px;
+	margin:20px 0px 0px 30px;
+}
+.calculatorinput_div span{
+	width:80px;
+    float: left;
+    display:inline;
+    font-size: 14px;
+    line-height: 37px;
+}
+.calculatorinput{
+	height: 35px;
+	width: 220px;
+	float: left;
+	position: relative;
+	display: inline;
+}
+.calculatorinput input{
+	width: 200px;
+	height: 35px;
+	border-radius: 2px;
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 1px 3px #eee inset;
+    padding-right: 30px;
+    line-height: 35px;
+}
+.calculatorinput p{
+	position: absolute;
+	right: 0;
+	top:6px;
+}
+.calculatorinput_div .error{
+	float: left;
+	display: inline;
+	width: 120px;
+	height: 35px;
+	padding:0px;
+	line-height: 16px;
+	margin-left:20px;
+	font-size: 12px;
+}
+.calculatorButtonBox{
+	width: 300px;
+	margin: 20px auto;
+}
+.calculatorButton1 a{
+	display: block;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	text-align: center;
+	background: #ff7800;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
+.calculatorButton2 a{
+	display: block;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	text-align: center;
+	background: #e2e2e2;
+    color: #434343;
+    border-radius: 5px;
+}
+.calculatorinput_div select{
+	width: 230px;
+	height: 35px;
+	border: 1px solid #c5c5c5;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px #eee inset;
+	line-height: 35px;
+}
+.calculatorTable{
+	text-align: center;
+}
+.calculatorTable p{
+	font-size: 16px;
+	line-height: 40px;
+	
+}
+.calculatorTable table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width:900px;
+  margin:15px auto;
+  font-size: 14px;
+}
+.calculatorTable table th,.calculatorTable table td{
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #FFFFFF;
+}
+.calculatorTable table th{
+	background: #319de8;
+	color: #FFFFFF;
+}
+.calculatorTable table td{
+	background: #f2f2f2;
+}
+.calculatorTable h4{
+	text-align: left;
+	font-size: 18px;
+	margin-left: 50px;
+}
