@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<!--<script>
+			var map = new Map();
+			map.set('fly',function(){console.log(this.name + ' is flying...')});
+			map.set('name','小明');
+			map.set('height',1.5);
+			var xiaoming = createObjectByMap(Student,map);
+			xiaoming.run(); // 小明 is running...
+			xiaoming.fly();
+			delete(xiaoming.fly)
+			xiaoming.fly();
+			alert(xiaoming.__proto__ === Student); // true
+		</script>-->
+		<script>
+			var newFun = createParent.createFun(testParent.People,{name:'test'},{grade:2},
+							{getGrade:function(){return this.grade;}});
+			var hong = new newFun();
+			console.log(hong.getGrade());
+			hong.say();
+			hong.hello();
+			
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

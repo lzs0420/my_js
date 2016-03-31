@@ -47,9 +47,9 @@ a.global-top-close {
 var lightbox_blank = "${WebRootPath}/Resources/js/lightbox/lightbox_empty.jsp";
 </script>
 
-<div class=lightbox id=lightbox style="BACKGROUND: url(${WebRootPath}/Resources/js/lightbox/loading.gif) #fff no-repeat center 50%; WIDTH: 650px">
+<div class=lightbox id=lightbox style="BACKGROUND: url(${WebRootPath}/util/Resources/js/lightbox/loading.gif) #fff no-repeat center 50%; WIDTH: 650px">
 <a onclick="lightboxhidden();"   class="global-top-close">x</a>
-<iframe id=lightboxiframe name=lightboxiframe  src="${WebRootPath}/Resources/js/lightbox/lightbox_empty.jsp" frameBorder=0 width=100%  scrolling=no></iframe>
+<iframe id=lightboxiframe name=lightboxiframe  src="${WebRootPath}/util/Resources/js/lightbox/lightbox_empty.jsp" frameBorder=0 width=100%  scrolling=no></iframe>
 </div>
 <div class=bgbox id=bgbox></div>
-<script type="text/javascript" charset="utf-8" src="${WebRootPath}/Resources/js/lightbox/lightbox.js"></script>
+<script type="text/javascript" charset="utf-8" src="${WebRootPath}/util/Resources/js/lightbox/lightbox.js"></script>
